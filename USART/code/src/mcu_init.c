@@ -65,7 +65,7 @@ void USART1_Init(void){
 	
 	/*Set baudrate 9600, No HW flow control, 
 			*Tx&Rx mode, No parity,
-			*One stop bit,8-bit data
+		 	*One stop bit,8-bit data
 	*/
 	USART1_Init.USART_BaudRate = 9600;
 	USART1_Init.USART_HardwareFlowControl = USART_HardwareFlowControl_None;
@@ -76,6 +76,12 @@ void USART1_Init(void){
 	
 	/*Configure USART1*/
 	USART_Init(USART1, &USART1_Init);
+	
+	/*Enable USART Interrupt*/
+	NVIC_EnableIRQ(USART1_IRQn);
+	
+	/*Enable TX Interrupt*/
+	//USART_ITConfig(USART1, USART_IT_TXE, ENABLE);
 	
 	/*Enable USART1*/
 	USART_Cmd(USART1, ENABLE);

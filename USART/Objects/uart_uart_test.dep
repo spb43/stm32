@@ -1526,7 +1526,7 @@ I (.\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma2d.h)(0x58075D3C)
 I (.\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fmc.h)(0x58075D3E)
 I (.\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_ltdc.h)(0x58075D40)
 I (.\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sai.h)(0x58075D44)
-F (.\code\src\main.c)(0x580F2277)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\USART -I .\code\inc -I .\code\src -I .\CMSIS\Include -I .\CMSIS\Device\ST\STM32F4xx -I .\CMSIS\Device\ST\STM32F4xx\Source -I .\CMSIS\Device\ST\STM32F4xx\Include -I .\STM32F4xx_StdPeriph_Driver\inc -I .\STM32F4xx_StdPeriph_Driver\src-I \\VBOXSVR\spb\code_test\stm32\USART\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F429xx --C99-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (.\code\src\main.c)(0x58106E95)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\USART -I .\code\inc -I .\code\src -I .\CMSIS\Include -I .\CMSIS\Device\ST\STM32F4xx -I .\CMSIS\Device\ST\STM32F4xx\Source -I .\CMSIS\Device\ST\STM32F4xx\Include -I .\STM32F4xx_StdPeriph_Driver\inc -I .\STM32F4xx_StdPeriph_Driver\src-I \\VBOXSVR\spb\code_test\stm32\USART\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F429xx --C99-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (.\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x58075D50)
 I (.\CMSIS\Include\core_cm4.h)(0x58075D44)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE892E)
@@ -1564,9 +1564,10 @@ I (.\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma2d.h)(0x58075D3C)
 I (.\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fmc.h)(0x58075D3E)
 I (.\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_ltdc.h)(0x58075D40)
 I (.\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sai.h)(0x58075D44)
-I (.\code\inc\main.h)(0x580E73C0)
+I (.\code\inc\main.h)(0x580FCA5B)
 I (.\code\inc\mcu_init.h)(0x580F1020)
-F (.\code\src\mcu_init.c)(0x580F22C2)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\USART -I .\code\inc -I .\code\src -I .\CMSIS\Include -I .\CMSIS\Device\ST\STM32F4xx -I .\CMSIS\Device\ST\STM32F4xx\Source -I .\CMSIS\Device\ST\STM32F4xx\Include -I .\STM32F4xx_StdPeriph_Driver\inc -I .\STM32F4xx_StdPeriph_Driver\src-I \\VBOXSVR\spb\code_test\stm32\USART\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F429xx --C99-o .\objects\mcu_init.o --omf_browse .\objects\mcu_init.crf --depend .\objects\mcu_init.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE892E)
+F (.\code\src\mcu_init.c)(0x58106C62)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\USART -I .\code\inc -I .\code\src -I .\CMSIS\Include -I .\CMSIS\Device\ST\STM32F4xx -I .\CMSIS\Device\ST\STM32F4xx\Source -I .\CMSIS\Device\ST\STM32F4xx\Include -I .\STM32F4xx_StdPeriph_Driver\inc -I .\STM32F4xx_StdPeriph_Driver\src-I \\VBOXSVR\spb\code_test\stm32\USART\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F429xx --C99-o .\objects\mcu_init.o --omf_browse .\objects\mcu_init.crf --depend .\objects\mcu_init.d)
 I (.\code\inc\mcu_init.h)(0x580F1020)
 I (.\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x58075D50)
 I (.\CMSIS\Include\core_cm4.h)(0x58075D44)

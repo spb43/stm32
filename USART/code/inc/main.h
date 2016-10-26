@@ -2,6 +2,7 @@
 
 #include "stm32f4xx.h"
 #include "mcu_init.h"
+#include <stdio.h>
 
 #define MAIN_H
 #define BUTTON_READ() GPIO_ReadInputDataBit(GPIOA, GPIO_Pin_0)

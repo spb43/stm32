@@ -39,3 +39,4 @@
 .\objects\main.o: .\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sai.h
 .\objects\main.o: .\code\inc\main.h
 .\objects\main.o: .\code\inc\mcu_init.h
+.\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
